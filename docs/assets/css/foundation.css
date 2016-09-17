@@ -103,6 +103,7 @@ select {
   width: 100%; }
 
 .row {
+  
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -142,7 +143,6 @@ select {
         display: table; }
       .row .row.collapse:after {
         clear: both; }
-
 .column,
 .columns {
   padding-left: 0.9375rem;
@@ -3628,16 +3628,7 @@ td {
   padding: 0; }
 
 /* Default Link Styles */
-a {
-  color: #FFFF99;
-  font-weight: 700;
-  text-decoration: none;
-  margin-left: 10px;
-  line-height: inherit; }
-  a:hover, a:focus {
-    color: #000; }
-  a img {
-    border: none; }
+
 
 /* Default paragraph styles */
 p {
@@ -3728,7 +3719,7 @@ code {
   padding: 0.125rem 0.3125rem 0.0625rem; }
 
 /* Lists */
-ul,
+/*ul,
 ol,
 dl {
   font-size: 1rem;
@@ -3748,7 +3739,7 @@ ul {
       list-style: none; }
 
 /* Unordered Lists */
-ul li ul,
+/*ul li ul,
 ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0; }
@@ -3764,25 +3755,25 @@ ul.disc {
   list-style-type: disc;
   margin-left: 1.1rem; }
 ul.no-bullet {
-  list-style: none; }
+  list-style: none; }*/
 
 /* Ordered Lists */
-ol {
+/*ol {
   margin-left: 1.4rem; }
   ol li ul,
   ol li ol {
     margin-left: 1.25rem;
-    margin-bottom: 0; }
+    margin-bottom: 0; }*/
 
 /* Definition Lists */
-dl dt {
+/*dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold; }
 dl dd {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem; }*/
 
 /* Abbreviations */
-abbr,
+/*abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
@@ -3792,10 +3783,10 @@ acronym {
 abbr {
   text-transform: none; }
   abbr[title] {
-    border-bottom: 1px dotted #dddddd; }
+    border-bottom: 1px dotted #dddddd; }*/
 
 /* Blockquotes */
-blockquote {
+/*blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #dddddd; }
@@ -3813,7 +3804,7 @@ blockquote,
 blockquote p {
   line-height: 1.6;
   color: #6f6f6f; }
-
+*/
 /* Microformats */
 .vcard {
   display: inline-block;

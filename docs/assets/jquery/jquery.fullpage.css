@@ -168,13 +168,13 @@ html.fp-enabled,
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-radius: 50%;
+    border-radius: 30%;
     position: absolute;
     z-index: 1;
-    height: 4px;
-    width: 4px;
+    height: 5px;
+    width: 5px;
     border: 0;
-    background: #333;
+    background: white;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
