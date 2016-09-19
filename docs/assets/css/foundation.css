@@ -34,7 +34,7 @@ html, body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }*/
 
-html,
+/*html,
 body {
   font-size: 100%; }
 
@@ -58,7 +58,7 @@ img {
   height: auto; }
 
 img {
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic; }*/
 
 #map_canvas img,
 #map_canvas embed,
@@ -91,11 +91,11 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-img {
+/*img {
   display: inline-block;
   vertical-align: middle; }
-
-textarea {
+*/
+/*textarea {
   height: auto;
   min-height: 50px; }
 
@@ -142,7 +142,7 @@ select {
         content: " ";
         display: table; }
       .row .row.collapse:after {
-        clear: both; }
+        clear: both; }*/
 .column,
 .columns {
   padding-left: 0.9375rem;
