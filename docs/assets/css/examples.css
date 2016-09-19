@@ -1,15 +1,33 @@
 @CHARSET "ISO-8859-1";
 /* Reset CSS
  * --------------------------------------- */
-/* body {
+ body {
 	padding-top: 70px;
-}*/
+}
+.skill-section {
+	font-size:20px;
+	width: 55%;
+	padding: 10px;
+	margin: auto;
+	opacity: 1;
+	color: #fff;
+	line-height: 1.0;
+	text-align: left;
+	text-shadow:0px 4px 3px rgba(0,10,0,0.4),
+					0px 8px 13px rgba(0,10,0,0.1),
+					0px 18px 23px rgba(0,10,0,0.1);	
+
+}
+a.skill-section {
+	font-weight: bold;
+	font-size: inherit;
+}
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
     margin: 0;
-    font-family: 'Boogaloo', cursive;
+    font-family: 'Roboto Slab', serif;
     font-weight: normal;
 
 }
@@ -38,8 +56,7 @@ caption,th {
     text-align: left;
 
 }
-h1,h2,h4,h5,h6 {
-	font-family: 'Boogaloo', cursive;
+h1,h4,h5,h6 {
     font-weight: bold;
     font-size: 100%;
     margin:0;
@@ -60,7 +77,7 @@ fp-nav ul li a span,
 }
 
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover {
-	font-family: 'Arima Madurai', cursive;
+	
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 20px;
@@ -81,10 +98,13 @@ span.h1 {
 
 figure {
 	color: white;
-	size: 200%;
+	size: 10%;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: inline-block;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1);
 }
 figure i{
 	-webkit-transform: scale(1.5);
@@ -95,6 +115,7 @@ figure i{
 figure:hover i {
 	-webkit-transform: scale(1);
 	transform: scale(1);
+	color: #FFFF99;
 }
 
 figure img {
@@ -102,7 +123,6 @@ figure img {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	border-radius: 1.5%;
 
 }
 figure:hover img{
@@ -119,10 +139,21 @@ figure:hover img{
 	text-transform: uppercase;
 }
 
+p.skill-section a {
+	font-size: 24px;
+	opacity: 1;
+	color: white;
+	line-height: 1.0;
+	text-align: left;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1);	
+}
+
 /* Custom CSS
  * --------------------------------------- */
 body {
-	font-family: 'Boogaloo', cursive;
+	font-family: 'Roboto Slab', serif;
 	/*font-family: 'Arima Madurai', cursive;*/ 
 	color: #333;
 	color: rgba(0,0,0,0.5);
@@ -133,17 +164,16 @@ body {
 	width: 960px;
 	position: relative;
 }
-.row.slide2 {
-	overflow: scroll;
-}
+
 h1{
 	font-size: 6em;
 }
 
-h2, h3 {
-	font-size: 2.5em;
-	color: white;
-	font-family: 'Boogaloo', cursive;
+#about-me {
+	padding-top: 20px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3.5em;
+	color: #fff;
 	text-shadow: none;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -156,32 +186,35 @@ p {
 .intro p{
 	width: 50%;
 	padding: 10px;
-	margin: auto;
+	margin-left: 50px;
 	font-size: 24px;
 	opacity: 1;
 	color: white;
 	line-height: 1.0;
-	text-align: left;	
+	text-align: left;
+	/*text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1);*/	
 }
 .section{
 	max-width: 960;
 	text-align:center;
 }
 
-.thumbnail {
+.side-image{
+	width: 45%;
+	padding: 10px;
+	float: right;
 	
-	display: inline-block;
- 	margin: 0 auto;   
-    border-radius: 10%;
-
+}
+.side-image img {
+	border-radius: 2%;
 }
 
 ul li{
 	display: inline-block;
-	margin-left: 15px;
-	margin-right: 25px;
-	text-align: center;
 	font-weight: 400;
+
 }
 
 /* EFFECTS
@@ -201,9 +234,10 @@ h1 .btn {
 	font-size:10px;
 }
 img.img-thumbnail {
- 	border: 2px solid #ff5858;
- 	border-radius: 15%;
+ 	border: 2px solid #fff;
+ 	border-radius: 11%;
  	margin-top: 50px;
+ 	margin-bottom: 40px;
 
 }
 
@@ -212,77 +246,79 @@ img.img-thumbnail {
 	font-weight: bold;
 	color: #f1c40f;
 	font-size: 20px;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1)
-
+	
 }
-p#my-title.flipIn{
-	font-family: 'Boogaloo', cursive;
-	text-align: center;
-	font-size: 28px;
+h2#my-title.flipIn{
+	font-family: 'Roboto Slab', serif;
+	text-align: inherit;
+	font-size: 26px;
 	color: white;
 	font-weight: normal;
 	color: #ecf0f1;
-	text-shadow: 0 0 3px #e74c3c;
+	text-shadow: 0 0 3px #fff;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1)
 }
-
 div.container li {
 	display: inline-block;
 	font-size: 11px;
 	font-family: inherit;
 	text-decoration: underline;
 
-	
 }
 div.container li:hover {
 	color: orange;
 }
 
 div.bottom {
-	padding-top: 170px;
+	padding-top: 300px;
 }
 h6.bottom {
-	font-family: 'Boogaloo', cursive;
+	font-family: 'Roboto Slab', serif;
 	text-shadow: none;
 	color: white;
 	font-size: 13px;
 	text-align: center;
 	font-weight: 400;
-	
+
 }
 
-/*hr.fake-bottom {
-	height: 0.75px;
-	min-width: 1000px;
-	margin-top: 100px;
-	padding-top: 30px;
-}*/
-div#social-links.col-s-6.col-md-3 {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	width: 100%
-	
-}
-span.in-line-link {
-	text-decoration: underline;
-	color: #fff;
-	text-transform: unset;
-
+div#social-links.col-s-6.col-md-3
+ {
+	/*padding: 40px 30px 0 18px;
+	line-height: 20px;*/
+	display:inline-block; 
+	min-width: 980px;	
 }
 
 a {
-  color: black;
-  text-transform: uppercase;
+  color: #fff;
+  text-decoration: underline;
   text-align: center;
   font-family: 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 24px;
   text-decoration: none;
-  line-height: 28px; }
+  line-height: 40px; }
  a:hover, a:focus {
     color: orange; }
  a img {
     border: none; }
 }
 
+@media (min-width: 800px){
+	/*.col-md-3{
+		width: 25%;
+	}*/
+}
+.fa-2x {
+	display: inline-block;
+	padding: 40px 30px 0 18px;
+	font-size: 25px;
+	width: 80%
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1);
+	
+}

@@ -1,8 +1,7 @@
 
 $(function(){
-    $(".tada").textillate({ in: { effect: 'tada' } }, 1000);
+    $("#tada").textillate({ in: { effect: 'tada' }  });
 });
-
 
 $(function(){
     $(".bounceIn").textillate({ in: { effect: 'bounceInDown' } });
@@ -19,3 +18,5 @@ $(function(){
 $(function(){
     $(".flipIn").textillate({ in: { effect: 'flipInX' } });
 });
+
+
