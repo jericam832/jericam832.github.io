@@ -78,13 +78,13 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 15px;
+    left: 40px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 15px;
+    right: 40px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }
@@ -168,13 +168,13 @@ html.fp-enabled,
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-radius: 50%;
+    border-radius: 30%;
     position: absolute;
     z-index: 1;
-    height: 4px;
-    width: 4px;
+    height: 5px;
+    width: 5px;
     border: 0;
-    background: #333;
+    background: white;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
